@@ -1,2 +1,6 @@
-# financial-market-eda
-Standalone data science project to work with real financial data, apply statistical analysis, and think quantitatively about markets.
+# Financial Market EDA & Signal Analysis
+What this is
+
+Exploratory data analysis on daily price data across a small cross-asset set (equities, sector names, gold, treasuries). Same EDA workflow as my Spotify project, applied to markets: distributions, correlation structure, and one signal tested honestly rather than cherry-picked.
+
+Status: just getting started — data collection in progress.
