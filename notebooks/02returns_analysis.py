@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 # %%
 def load_price_data(filepath):
     """Load a saved price CSV with proper datetime index."""
@@ -49,3 +50,4 @@ axes[1].legend()
 
 plt.tight_layout()
 plt.show()
+# %%
