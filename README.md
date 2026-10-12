@@ -17,9 +17,7 @@
 
 ## What This Is
 
-Exploratory data analysis on five years of daily price data across eight assets spanning broad equity indices, sector proxies, and alternative assets. Same EDA workflow as my Spotify project, applied to markets: distributions, correlation structure, and one signal (cross-asset correlation breakdown during market stress) tested honestly rather than cherry-picked.
-
-The goal wasn't just to run the standard toolkit. It was to catch what the standard toolkit gets wrong if you don't think about the mechanics underneath it, then go verify or correct each one against real events.
+Exploratory data analysis on five years of daily price data across eight assets spanning broad equity indices, sector proxies, and alternative assets.
 
 ---
 
