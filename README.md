@@ -33,7 +33,7 @@ Ticker logic, briefly: SPY and QQQ give a broad-market and tech-concentrated vie
 
 ## Key Findings
 
-- **A strong AAPL-QQQ correlation (0.706) is partly a mechanical artifact, not a market insight.** AAPL is a large weighted constituent of QQQ by construction. Confirmed by contrast: JPM, which the Nasdaq-100 categorically excludes by rule (it excludes all financial companies), still shows real correlation with QQQ (0.481) purely from macro co-movement, with no structural channel possible. Same tool, different mechanism, different number.
+- **JPM, which the Nasdaq-100 categorically excludes by rule, still shows real correlation with QQQ (0.481) purely from macro co-movement, with no structural channel possible.
 
 - **The top Sharpe ratios (XOM 1.09, GLD 1.05) are not evidence that commodities are inherently superior investments over this window.** Both trace to the same real event: the 2026 Iran conflict and Strait of Hormuz closure, which spiked oil (helping XOM) and drove safe-haven flows into gold (helping GLD) near the tail end of the window. This result is very likely window-specific and would not necessarily replicate over a different five-year period.
 
