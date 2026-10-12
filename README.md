@@ -27,7 +27,7 @@ Exploratory data analysis on five years of daily price data across eight assets 
 - Period: 2021-09-07 to 2026-09-04, daily, locked to explicit start/end dates rather than a rolling `period='5y'` window, so the dataset is reproducible rather than silently shifting every time the notebook reruns
 - Both raw and dividend/split-adjusted close pulled and saved separately. Returns math uses adjusted close; raw close is kept specifically to verify the adjustment is doing something (see Finding 1 below)
 
-Ticker logic, briefly: SPY and QQQ give a broad-market and tech-concentrated view respectively (QQQ tracks the Nasdaq-100, a narrower 100-name index that excludes financials, not the ~3000-name Nasdaq Composite). AAPL, JPM, XOM, and JNJ are single-name proxies meant to separate systematic risk (the whole market moving together) from sector-specific idiosyncratic risk. GLD and TLT add two assets with different risk profiles entirely: commodity/safe-haven demand, and interest-rate/duration risk.
+Ticker logic, briefly: SPY and QQQ give a broad-market and tech-concentrated view respectively. AAPL, JPM, XOM, and JNJ are single-name proxies meant to separate systematic risk from sector-specific idiosyncratic risk. GLD and TLT add two assets with different risk profiles entirely: commodity/safe-haven demand, and interest-rate/duration risk.
 
 ---
 
